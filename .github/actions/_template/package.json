@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "ncc build ./src/main.ts"
+  },
+  "dependencies": {
+    "@actions/core": "1.6.0",
+    "@actions/exec": "1.1.0",
+    "@actions/github": "5.0.0",
+    "@actions/glob": "0.1.2",
+    "@types/node": "16.10.3",
+    "@vercel/ncc": "0.31.1",
+    "typescript": "4.4.3"
+  }
+}
