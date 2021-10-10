@@ -1,0 +1,15 @@
+name: Template
+description: Template
+
+runs:
+  using: node12
+  main: dist/index.js
+
+inputs:
+  SOLUTION:
+    description: 'Path template to solution file.'
+    required: true
+    default: |
+      *.sln
+
+
