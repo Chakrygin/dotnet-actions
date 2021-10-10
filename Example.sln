@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{7EAE2047-2A5D-4769-A6FE-54AB8CC40FF8}"
+ProjectSection(SolutionItems) = preProject
+	.editorconfig = .editorconfig
+	.gitattributes = .gitattributes
+	.gitignore = .gitignore
+	Directory.Build.props = Directory.Build.props
+	Directory.Build.targets = Directory.Build.targets
+	global.json = global.json
+	LICENSE = LICENSE
+	nuget.config = nuget.config
+	README.md = README.md
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{92E8A21C-3CC8-4D4A-82B1-4E2E839114E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7638B6B3-50F3-4D6E-B2FE-E56BF60BD49C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "src\Example\Example.csproj", "{7C71BCE1-ED1A-4C60-AA3E-62C282D0ECD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Tests", "tests\Example.Tests\Example.Tests.csproj", "{8302C045-6BD8-4632-BB8A-52453B56124C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7C71BCE1-ED1A-4C60-AA3E-62C282D0ECD2} = {92E8A21C-3CC8-4D4A-82B1-4E2E839114E1}
+		{8302C045-6BD8-4632-BB8A-52453B56124C} = {7638B6B3-50F3-4D6E-B2FE-E56BF60BD49C}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C71BCE1-ED1A-4C60-AA3E-62C282D0ECD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C71BCE1-ED1A-4C60-AA3E-62C282D0ECD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C71BCE1-ED1A-4C60-AA3E-62C282D0ECD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C71BCE1-ED1A-4C60-AA3E-62C282D0ECD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8302C045-6BD8-4632-BB8A-52453B56124C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8302C045-6BD8-4632-BB8A-52453B56124C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8302C045-6BD8-4632-BB8A-52453B56124C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8302C045-6BD8-4632-BB8A-52453B56124C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
